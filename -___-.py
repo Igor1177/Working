@@ -1,2 +1,0 @@
-print('Slava')
-print('Bebrou')
