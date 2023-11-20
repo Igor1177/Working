@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1699627589 source:d:\programms\bebra\das\main.cpp
+	"TXLib.h"
+	"buttom.cpp"
+	"picture.cpp"
+	<fstream>
+	<stdio.h>
+	<dirent.h>
+
+1697815081 source:d:\programms\bebra\das\buttom.cpp
+	"TXLib.h"
+
+1699023764 source:d:\programms\bebra\das\picture.cpp
+	"TXLib.h"
+
+1697815081 d:\programms\bebra\das\buttom.cpp
+	"TXLib.h"
+
+1699023764 d:\programms\bebra\das\picture.cpp
+	"TXLib.h"
+

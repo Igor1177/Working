@@ -1,0 +1,446 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Programms\bebra\das\bin\Debug\das.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00401433 в функции __exchange_and_add() в файле c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h на строке 47. Попытка записать данные по адресу 0x00670061 в модуле D:\Programms\bebra\das\bin\Debug\das.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005B4A3C (32-bit), Flags: Cmdre0, Thread: 0x1DB8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00401433 in D:\Programms\bebra\das\bin\Debug\das.exe: __exchange_and_add() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h (47):
+
+     45:   static inline _Atomic_word 
+     46:   __exchange_and_add(volatile _Atomic_word* __mem, int __val)
+=>   47:   { return __atomic_fetch_add(__mem, __val, __ATOMIC_ACQ_REL); }
+     48: 
+     49:   static inline void
+
+# 1 0x004014A5 in D:\Programms\bebra\das\bin\Debug\das.exe: __exchange_and_add_dispatch() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h (80):
+
+     78: #ifdef __GTHREADS
+     79:     if (__gthread_active_p())
+=>   80:       return __exchange_and_add(__mem, __val);
+     81:     else
+     82:       return __exchange_and_add_single(__mem, __val);
+
+# 2 0x004A91FA in D:\Programms\bebra\das\bin\Debug\das.exe: _M_dispose() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 3 0x004B10F3 in D:\Programms\bebra\das\bin\Debug\das.exe at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 4 0x00474CDA in D:\Programms\bebra\das\bin\Debug\das.exe at D:/Programms/bebra/das/buttom.cpp (27):
+
+     25:                 txMouseX() >= x && txMouseX() <= x+140 &&
+     26:                 txMouseY() >= 35 && txMouseY() <= 75);
+=>   27:     }
+     28: 
+     29: };
+
+# 5 0x004389DC in D:\Programms\bebra\das\bin\Debug\das.exe: main() at D:/Programms/bebra/das/main.cpp (22):
+
+     20:     btn[2] = {350, "Аксесcуары", "Аксесcуары"};
+     21:     btn[3] = {500, "Предметы"};
+=>   22:     btn[4] = {650, "Фон"};
+     23: 
+     24: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\program files (x86)\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 20 2023 18:57:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 20 2023 19:20:24
+
+Run file:	D:\Programms\bebra\das\bin\Debug\das.exe
+Directory:	D:\Programms\bebra\das
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Programms\bebra\das\bin\Debug\das.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00401433 в функции __exchange_and_add() в файле c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h на строке 47. Попытка записать данные по адресу 0x00670061 в модуле D:\Programms\bebra\das\bin\Debug\das.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005B4A3C (32-bit), Flags: Cmdre0, Thread: 0x1DB8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00401433 in D:\Programms\bebra\das\bin\Debug\das.exe: __exchange_and_add() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h (47):
+
+     45:   static inline _Atomic_word 
+     46:   __exchange_and_add(volatile _Atomic_word* __mem, int __val)
+=>   47:   { return __atomic_fetch_add(__mem, __val, __ATOMIC_ACQ_REL); }
+     48: 
+     49:   static inline void
+
+# 1 0x004014A5 in D:\Programms\bebra\das\bin\Debug\das.exe: __exchange_and_add_dispatch() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h (80):
+
+     78: #ifdef __GTHREADS
+     79:     if (__gthread_active_p())
+=>   80:       return __exchange_and_add(__mem, __val);
+     81:     else
+     82:       return __exchange_and_add_single(__mem, __val);
+
+# 2 0x004A91FA in D:\Programms\bebra\das\bin\Debug\das.exe: _M_dispose() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 3 0x004B10F3 in D:\Programms\bebra\das\bin\Debug\das.exe at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 4 0x00474CDA in D:\Programms\bebra\das\bin\Debug\das.exe at D:/Programms/bebra/das/buttom.cpp (27):
+
+     25:                 txMouseX() >= x && txMouseX() <= x+140 &&
+     26:                 txMouseY() >= 35 && txMouseY() <= 75);
+=>   27:     }
+     28: 
+     29: };
+
+# 5 0x004389DC in D:\Programms\bebra\das\bin\Debug\das.exe: main() at D:/Programms/bebra/das/main.cpp (22):
+
+     20:     btn[2] = {350, "Аксесcуары", "Аксесcуары"};
+     21:     btn[3] = {500, "Предметы"};
+=>   22:     btn[4] = {650, "Фон"};
+     23: 
+     24: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\program files (x86)\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 20 2023 18:57:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 20 2023 19:20:25
+
+Run file:	D:\Programms\bebra\das\bin\Debug\das.exe
+Directory:	D:\Programms\bebra\das
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Programms\bebra\das\bin\Debug\das.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047B39C в функции _M_is_leaked() в файле c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0x0000003C в модуле D:\Programms\bebra\das\bin\Debug\das.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005B7A3C (32-bit), Flags: Cmdre0, Thread: 0x1324 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047B39C in D:\Programms\bebra\das\bin\Debug\das.exe: _M_is_leaked() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004AA2DB in D:\Programms\bebra\das\bin\Debug\das.exe: swap() at D:/Programms/bebra/das/main.cpp (279):
+
+    277: 
+    278: return 0;
+=>  279: }
+    280: 
+
+# 2 0x004B1619 in D:\Programms\bebra\das\bin\Debug\das.exe: operator=() at D:/Programms/bebra/das/main.cpp (279):
+
+    277: 
+    278: return 0;
+=>  279: }
+    280: 
+
+# 3 0x0043884A in D:\Programms\bebra\das\bin\Debug\das.exe: readFromDir() at D:/Programms/bebra/das/main.cpp (47):
+
+     45:             if((string)ent -> d_name != "." && (string)ent -> d_name != "..")
+     46:             {
+=>   47:                 menuPic[count_pic].adress = adress + (string)ent -> d_name;
+     48:                 count_pic++;
+     49:             }
+
+# 4 0x004391D8 in D:\Programms\bebra\das\bin\Debug\das.exe: main() at D:/Programms/bebra/das/main.cpp (86):
+
+     84:     menuPic[5] = {20, 300, "Pictures/Аксесcуары/Аксесcуар2.bmp"};
+     85: 
+=>   86:     count_pic = readFromDir("Pictures/Персонаж/", menuPic, count_pic);
+     87:     count_pic = readFromDir("Pictures/Одежда/", menuPic, count_pic);
+     88:     count_pic = readFromDir("Pictures/Аксесcуары/", menuPic, count_pic);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\program files (x86)\codeblocks\mingw\include\txlib.h
+Compiled:	Nov  3 2023 19:02:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 06 2023 19:04:06
+
+Run file:	D:\Programms\bebra\das\bin\Debug\das.exe
+Directory:	D:\Programms\bebra\das
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Programms\bebra\das\bin\Debug\das.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047B39C в функции _M_is_leaked() в файле c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0x0000003C в модуле D:\Programms\bebra\das\bin\Debug\das.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005B7A3C (32-bit), Flags: Cmdre0, Thread: 0x1324 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047B39C in D:\Programms\bebra\das\bin\Debug\das.exe: _M_is_leaked() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004AA2DB in D:\Programms\bebra\das\bin\Debug\das.exe: swap() at D:/Programms/bebra/das/main.cpp (279):
+
+    277: 
+    278: return 0;
+=>  279: }
+    280: 
+
+# 2 0x004B1619 in D:\Programms\bebra\das\bin\Debug\das.exe: operator=() at D:/Programms/bebra/das/main.cpp (279):
+
+    277: 
+    278: return 0;
+=>  279: }
+    280: 
+
+# 3 0x0043884A in D:\Programms\bebra\das\bin\Debug\das.exe: readFromDir() at D:/Programms/bebra/das/main.cpp (47):
+
+     45:             if((string)ent -> d_name != "." && (string)ent -> d_name != "..")
+     46:             {
+=>   47:                 menuPic[count_pic].adress = adress + (string)ent -> d_name;
+     48:                 count_pic++;
+     49:             }
+
+# 4 0x004391D8 in D:\Programms\bebra\das\bin\Debug\das.exe: main() at D:/Programms/bebra/das/main.cpp (86):
+
+     84:     menuPic[5] = {20, 300, "Pictures/Аксесcуары/Аксесcуар2.bmp"};
+     85: 
+=>   86:     count_pic = readFromDir("Pictures/Персонаж/", menuPic, count_pic);
+     87:     count_pic = readFromDir("Pictures/Одежда/", menuPic, count_pic);
+     88:     count_pic = readFromDir("Pictures/Аксесcуары/", menuPic, count_pic);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\program files (x86)\codeblocks\mingw\include\txlib.h
+Compiled:	Nov  3 2023 19:02:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 06 2023 19:04:06
+
+Run file:	D:\Programms\bebra\das\bin\Debug\das.exe
+Directory:	D:\Programms\bebra\das
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: D:\Programms\bebra\das\bin\Debug\das.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047B39C в функции _M_is_leaked() в файле c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0x0000003C в модуле D:\Programms\bebra\das\bin\Debug\das.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005B7A3C (32-bit), Flags: Cmdre0, Thread: 0xAE8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047B39C in D:\Programms\bebra\das\bin\Debug\das.exe: _M_is_leaked() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004AA2DB in D:\Programms\bebra\das\bin\Debug\das.exe: swap() at D:/Programms/bebra/das/main.cpp (279):
+
+    277: 
+    278: return 0;
+=>  279: }
+    280: 
+
+# 2 0x004B1619 in D:\Programms\bebra\das\bin\Debug\das.exe: operator=() at D:/Programms/bebra/das/main.cpp (279):
+
+    277: 
+    278: return 0;
+=>  279: }
+    280: 
+
+# 3 0x0043884A in D:\Programms\bebra\das\bin\Debug\das.exe: readFromDir() at D:/Programms/bebra/das/main.cpp (47):
+
+     45:             if((string)ent -> d_name != "." && (string)ent -> d_name != "..")
+     46:             {
+=>   47:                 menuPic[count_pic].adress = adress + (string)ent -> d_name;
+     48:                 count_pic++;
+     49:             }
+
+# 4 0x004391D8 in D:\Programms\bebra\das\bin\Debug\das.exe: main() at D:/Programms/bebra/das/main.cpp (86):
+
+     84:     menuPic[5] = {20, 300, "Pictures/Аксесcуары/Аксесcуар2.bmp"};
+     85: 
+=>   86:     count_pic = readFromDir("Pictures/Персонаж/", menuPic, count_pic);
+     87:     count_pic = readFromDir("Pictures/Одежда/", menuPic, count_pic);
+     88:     count_pic = readFromDir("Pictures/Аксесcуары/", menuPic, count_pic);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\program files (x86)\codeblocks\mingw\include\txlib.h
+Compiled:	Nov  3 2023 19:02:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 06 2023 19:12:50
+
+Run file:	D:\Programms\bebra\das\bin\Debug\das.exe
+Directory:	D:\Programms\bebra\das
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: D:\Programms\bebra\das\bin\Debug\das.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047B39C в функции _M_is_leaked() в файле c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0x0000003C в модуле D:\Programms\bebra\das\bin\Debug\das.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400], Instance: 0x005B7A3C (32-bit), Flags: Cmdre0, Thread: 0xAE8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047B39C in D:\Programms\bebra\das\bin\Debug\das.exe: _M_is_leaked() at c:/program files (x86)/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004AA2DB in D:\Programms\bebra\das\bin\Debug\das.exe: swap() at D:/Programms/bebra/das/main.cpp (279):
+
+    277: 
+    278: return 0;
+=>  279: }
+    280: 
+
+# 2 0x004B1619 in D:\Programms\bebra\das\bin\Debug\das.exe: operator=() at D:/Programms/bebra/das/main.cpp (279):
+
+    277: 
+    278: return 0;
+=>  279: }
+    280: 
+
+# 3 0x0043884A in D:\Programms\bebra\das\bin\Debug\das.exe: readFromDir() at D:/Programms/bebra/das/main.cpp (47):
+
+     45:             if((string)ent -> d_name != "." && (string)ent -> d_name != "..")
+     46:             {
+=>   47:                 menuPic[count_pic].adress = adress + (string)ent -> d_name;
+     48:                 count_pic++;
+     49:             }
+
+# 4 0x004391D8 in D:\Programms\bebra\das\bin\Debug\das.exe: main() at D:/Programms/bebra/das/main.cpp (86):
+
+     84:     menuPic[5] = {20, 300, "Pictures/Аксесcуары/Аксесcуар2.bmp"};
+     85: 
+=>   86:     count_pic = readFromDir("Pictures/Персонаж/", menuPic, count_pic);
+     87:     count_pic = readFromDir("Pictures/Одежда/", menuPic, count_pic);
+     88:     count_pic = readFromDir("Pictures/Аксесcуары/", menuPic, count_pic);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2022-07-23 02:08:28 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\program files (x86)\codeblocks\mingw\include\txlib.h
+Compiled:	Nov  3 2023 19:02:44, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 06 2023 19:12:50
+
+Run file:	D:\Programms\bebra\das\bin\Debug\das.exe
+Directory:	D:\Programms\bebra\das
+
+--------------------------------------------------
