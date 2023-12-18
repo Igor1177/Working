@@ -1,0 +1,54 @@
+#include "TXLib.h"
+#include <fstream>
+#include <std>
+
+using namespace std;
+
+struct Picture
+{
+    int x;
+    int y;
+    string adress;
+    HDC pic;
+    int w_scr;
+    int h_scr;
+    int w;
+    int h;
+    bool visible;
+    string category;
+
+    void draw()
+    {
+        if(visible)
+        {
+            Win32::TransparentBlt (txDC(), x, y, w_scr, h_scr, pic, 0, 0, w, h, TX_WHITE);
+        }
+    }
+
+    bool click()
+    {
+        return( txMouseButtons() == 1 &&
+                txMouseX() >= x && txMouseX() <= x+w_scr &&
+                txMouseY() >= y && txMouseY() <= y+h_scr);
+    }
+};
+
+int get_w(string adress)
+{
+    FILE *f1 = fopen(adress.c_str(), "rb");
+    unsigned char headerinfo[54];
+    fread(headerinfo, sizeof(unsigned char), 54, f1);
+    int w = *(int *)&headerinfo[18];
+
+    return w;
+}
+
+int get_h(string adress)
+{
+    FILE *f1 = fopen(adress.c_str(), "rb");
+    unsigned char headerinfo[54];
+    fread(headerinfo, sizeof(unsigned char), 54, f1);
+    int h = *(int *)&headerinfo[22];
+
+    return h;
+}

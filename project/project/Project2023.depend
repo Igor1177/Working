@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1702049627 source:c:\users\root\source\repos\project2023\main.cpp
+	"TXLib.h"
+	"buttom.cpp"
+	"picture.cpp"
+	<fstream>
+	<stdio.h>
+	<dirent.h>
+
+1700837944 source:c:\users\root\source\repos\project2023\buttom.cpp
+	"TXLib.h"
+
+1698680179 source:c:\users\root\source\repos\project2023\picture.cpp
+	"TXLib.h"
+
+1700837944 c:\users\root\source\repos\project2023\buttom.cpp
+	"TXLib.h"
+
+1698680179 c:\users\root\source\repos\project2023\picture.cpp
+	"TXLib.h"
+

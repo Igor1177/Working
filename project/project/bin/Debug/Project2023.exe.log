@@ -1,0 +1,1342 @@
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRE0, Thread: 0x2C0C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041DA5F in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (50):
+
+     48:             txSelectFont("Times New Roman", 24);
+     49:             txDrawText (0, 50, 1200, 200, "Кнопка 1 нажата");
+=>   50:             txBitBlt (txDC(), 100, 200, 200, 125, pic1);
+     51:         }
+     52: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 15 2023 19:48:49, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 15 2023 19:48:53
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRE0, Thread: 0x312C (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041DA5F in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (50):
+
+     48:             txSelectFont("Times New Roman", 24);
+     49:             txDrawText (0, 50, 1200, 200, "Кнопка 1 нажата");
+=>   50:             txBitBlt (txDC(), 100, 200, 300, 700, pic1);
+     51:         }
+     52: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 15 2023 19:49:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 15 2023 19:49:58
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRE0, Thread: 0xB74 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041D95C in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (47):
+
+     45:         if(clickButton(60))
+     46:         {
+=>   47:             txBitBlt (txDC(), 100, 200, 300, 900, pic1);
+     48:         }
+     49: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 15 2023 19:51:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 15 2023 19:51:22
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRE0, Thread: 0x1A24 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041D95C in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (47):
+
+     45:         if(clickButton(60))
+     46:         {
+=>   47:             txBitBlt (txDC(), 100, 200, 300, 900, pic1);
+     48:         }
+     49: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 15 2023 19:51:18, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 15 2023 19:51:30
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 13628, функция: bool {anonymous}::TX::txBitBlt(HDC, double, double, double, double, HDC, double, double, unsigned int),
+
+Сообщение: Параметр "sourceImage" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F42FC (32-bit), Flags: CMdRE0, Thread: 0x29B4 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00416F73 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txBitBlt() at c:/codeblocks/mingw/include/txlib.h (13628)
+
+# 1 0x0041D95C in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (47):
+
+     45:         if(clickButton(60))
+     46:         {
+=>   47:             txBitBlt (txDC(), 100, 200, 300, 700, pic1);
+     48:         }
+     49: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Sep 15 2023 19:52:26, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Sep 15 2023 19:52:31
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x76599618 в функции strchr(). Попытка прочесть данные по адресу 0x000000F0 в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRE0, Thread: 0x304 (Main), GetLastError(): 6 (Неверный дескриптор). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x76599618 in C:\WINDOWS\System32\msvcrt.dll: strchr()
+
+# 1 0x0043C738 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: draw() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041D910 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (103):
+
+    101:         for(int i=0; i<count_btn; i++)
+    102:         {
+=>  103:             btn[i].draw();
+    104:         }
+    105:         //Рисование картинок
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct  2 2023 19:07:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 02 2023 19:07:25
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x76599618 в функции strchr(). Попытка прочесть данные по адресу 0x000000F0 в модуле C:\WINDOWS\System32\msvcrt.dll. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F52FC (32-bit), Flags: CMdRE0, Thread: 0x304 (Main), GetLastError(): 6 (Неверный дескриптор). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x76599618 in C:\WINDOWS\System32\msvcrt.dll: strchr()
+
+# 1 0x0043C738 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: draw() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x0041D910 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (103):
+
+    101:         for(int i=0; i<count_btn; i++)
+    102:         {
+=>  103:             btn[i].draw();
+    104:         }
+    105:         //Рисование картинок
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct  2 2023 19:07:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 02 2023 19:07:25
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 10854, функция: bool {anonymous}::TX::_txBuffer_Delete(HDC__**),
+
+Сообщение: Параметр "*dc" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRE0, Thread: 0x42B8 (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0040A9D0 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _txBuffer_Delete() at c:/codeblocks/mingw/include/txlib.h (10854)
+# 1 0x00416CF7 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txDeleteDC() at c:/codeblocks/mingw/include/txlib.h (13597)
+# 2 0x00416E43 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txDeleteDC() at c:/codeblocks/mingw/include/txlib.h (13619)
+
+# 3 0x0041E250 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (167):
+
+    165:     for(int i=0; i<count_pic; i++)
+    166:     {
+=>  167:         txDeleteDC (centrPic[i].pic);
+    168:     }
+    169: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct  2 2023 19:38:01, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 02 2023 19:38:06
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 10854, функция: bool {anonymous}::TX::_txBuffer_Delete(HDC__**),
+
+Сообщение: Параметр "*dc" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRE0, Thread: 0x54AC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0040A9D0 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _txBuffer_Delete() at c:/codeblocks/mingw/include/txlib.h (10854)
+# 1 0x00416CF7 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txDeleteDC() at c:/codeblocks/mingw/include/txlib.h (13597)
+# 2 0x00416E43 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txDeleteDC() at c:/codeblocks/mingw/include/txlib.h (13619)
+
+# 3 0x0041E404 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (184):
+
+    182:     for(int i=0; i<count_pic; i++)
+    183:     {
+=>  184:         txDeleteDC (menuPic[i].pic);
+    185:     }
+    186: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct  2 2023 19:46:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 02 2023 19:46:32
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0043DC59 в функции operator=() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка записать данные по адресу 0x007A19E0 в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRE0, Thread: 0x290C (Main), GetLastError(): 87 (Параметр задан неверно). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0043DC59 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x0041E0AF in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (176):
+
+    174:                                             menuPic[npic].h,
+    175:                                             menuPic[npic].visible,
+=>  176:                                             menuPic[npic].category};
+    177:             }
+    178:             nCentralPic ++;
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 16 2023 18:59:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 16 2023 18:59:26
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0043DC59 в функции operator=() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка записать данные по адресу 0x007A19E0 в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRE0, Thread: 0x290C (Main), GetLastError(): 87 (Параметр задан неверно). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0043DC59 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x0041E0AF in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (176):
+
+    174:                                             menuPic[npic].h,
+    175:                                             menuPic[npic].visible,
+=>  176:                                             menuPic[npic].category};
+    177:             }
+    178:             nCentralPic ++;
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 16 2023 18:59:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 16 2023 18:59:26
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0044334C в функции _M_is_leaked() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0x00000128 в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRE0, Thread: 0x52C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0044334C in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_is_leaked() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x0047240B in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: swap() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x00479DD9 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 3 0x0043DC76 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 4 0x0041E018 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (176):
+
+    174:                                             menuPic[npic].h,
+    175:                                             menuPic[npic].visible,
+=>  176:                                             menuPic[npic].category};
+    177:             }
+    178:             nCentralPic ++;
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 16 2023 19:00:05, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 16 2023 19:00:10
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0044334C в функции _M_is_leaked() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0x00000128 в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRE0, Thread: 0x52C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0044334C in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_is_leaked() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x0047240B in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: swap() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 2 0x00479DD9 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 3 0x0043DC76 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 4 0x0041E018 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (176):
+
+    174:                                             menuPic[npic].h,
+    175:                                             menuPic[npic].visible,
+=>  176:                                             menuPic[npic].category};
+    177:             }
+    178:             nCentralPic ++;
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 16 2023 19:00:05, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 16 2023 19:00:10
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib сообщает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe, файл: c:\codeblocks\mingw\include\txlib.h, строка: 10854, функция: bool {anonymous}::TX::_txBuffer_Delete(HDC__**),
+
+Сообщение: Параметр "*dc" неверен. Возможно, этот холст не создан, или уже уничтожен, или не загрузилась картинка.
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x004F62FC (32-bit), Flags: CMdRE0, Thread: 0x2FFC (Main), GetLastError(): 13 (Недопустимые данные). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0040A9D0 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _txBuffer_Delete() at c:/codeblocks/mingw/include/txlib.h (10854)
+# 1 0x00416CF7 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txDeleteDC() at c:/codeblocks/mingw/include/txlib.h (13597)
+# 2 0x00416E43 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: txDeleteDC() at c:/codeblocks/mingw/include/txlib.h (13619)
+
+# 3 0x0041E919 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (264):
+
+    262:     for(int i=0; i<count_pic; i++)
+    263:     {
+=>  264:         txDeleteDC (centrPic[i].pic);
+    265:     }
+    266: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 16 2023 19:02:10, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 16 2023 19:02:15
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047D07C в функции _M_is_leaked() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0x0000015A в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005B7A3C (32-bit), Flags: Cmdre0, Thread: 0x2778 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047D07C in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_is_leaked() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004AC16B in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: swap() at C:/Users/root/source/repos/Project2023/picture.cpp (3):
+
+      1: #include "TXLib.h"
+      2: 
+=>    3: struct Picture
+      4: {
+      5:     int x;
+
+# 2 0x004B3B39 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at c:/codeblocks/mingw/include/c++/4.8.1/bits/basic_string.h (583):
+
+    581:       {
+    582: 	// NB: DR 1204.
+=>  583: 	this->swap(__str);
+    584: 	return *this;
+    585:       }
+
+# 3 0x0047791A in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/picture.cpp (3):
+
+      1: #include "TXLib.h"
+      2: 
+=>    3: struct Picture
+      4: {
+      5:     int x;
+
+# 4 0x0043ABB4 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (30):
+
+     28:     menuPic[4] = {20, 500, txLoadImage("Pictures/Одежда/Пиджак.bmp"),       80,  140, 240, 420, false, "Одежда"};
+     29:     menuPic[5] = {20, 100, txLoadImage("Pictures/Уборы/Шлем.bmp"), 100, 105, 100, 105, false, "Уборы"};
+=>   30:     menuPic[6] = {20, 300, txLoadImage("Pictures/Уборы/Диадема.bmp"), 100, 59,  100, 59,  false, "Уборы"};
+     31: 
+     32: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 16 2023 19:32:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 20 2023 19:36:01
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047D07C в функции _M_is_leaked() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0x0000015A в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005B7A3C (32-bit), Flags: Cmdre0, Thread: 0x2778 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047D07C in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_is_leaked() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004AC16B in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: swap() at C:/Users/root/source/repos/Project2023/picture.cpp (3):
+
+      1: #include "TXLib.h"
+      2: 
+=>    3: struct Picture
+      4: {
+      5:     int x;
+
+# 2 0x004B3B39 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at c:/codeblocks/mingw/include/c++/4.8.1/bits/basic_string.h (583):
+
+    581:       {
+    582: 	// NB: DR 1204.
+=>  583: 	this->swap(__str);
+    584: 	return *this;
+    585:       }
+
+# 3 0x0047791A in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/picture.cpp (3):
+
+      1: #include "TXLib.h"
+      2: 
+=>    3: struct Picture
+      4: {
+      5:     int x;
+
+# 4 0x0043ABB4 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (30):
+
+     28:     menuPic[4] = {20, 500, txLoadImage("Pictures/Одежда/Пиджак.bmp"),       80,  140, 240, 420, false, "Одежда"};
+     29:     menuPic[5] = {20, 100, txLoadImage("Pictures/Уборы/Шлем.bmp"), 100, 105, 100, 105, false, "Уборы"};
+=>   30:     menuPic[6] = {20, 300, txLoadImage("Pictures/Уборы/Диадема.bmp"), 100, 59,  100, 59,  false, "Уборы"};
+     31: 
+     32: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 16 2023 19:32:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 20 2023 19:36:01
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00401433 в функции __exchange_and_add() в файле c:/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h на строке 47. Попытка записать данные по адресу 0x00509675 в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005B7A3C (32-bit), Flags: Cmdre0, Thread: 0x3414 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00401433 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: __exchange_and_add() at c:/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h (47):
+
+     45:   static inline _Atomic_word 
+     46:   __exchange_and_add(volatile _Atomic_word* __mem, int __val)
+=>   47:   { return __atomic_fetch_add(__mem, __val, __ATOMIC_ACQ_REL); }
+     48: 
+     49:   static inline void
+
+# 1 0x004014A5 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: __exchange_and_add_dispatch() at c:/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h (80):
+
+     78: #ifdef __GTHREADS
+     79:     if (__gthread_active_p())
+=>   80:       return __exchange_and_add(__mem, __val);
+     81:     else
+     82:       return __exchange_and_add_single(__mem, __val);
+
+# 2 0x004AC29A in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_dispose() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 3 0x004B4193 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 4 0x00477F4A in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe at C:/Users/root/source/repos/Project2023/picture.cpp (3):
+
+      1: #include "TXLib.h"
+      2: 
+=>    3: struct Picture
+      4: {
+      5:     int x;
+
+# 5 0x0043B194 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (38):
+
+     36:     menuPic[10] = {20, 100, txLoadImage("Pictures/Уборы/Шлем.bmp"),         100,  105, 100, 105, false, "Уборы"};
+     37:     menuPic[11] = {20, 300, txLoadImage("Pictures/Уборы/Диадема.bmp"),      100,   60, 100,  60, false, "Уборы"};
+=>   38:     menuPic[12] = {20, 500, txLoadImage("Pictures/Уборы/Косынка.bmp"),      100,   60, 100,  60, false, "Уборы"};
+     39: 
+     40: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 16 2023 19:32:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 23 2023 19:07:11
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00401433 в функции __exchange_and_add() в файле c:/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h на строке 47. Попытка записать данные по адресу 0x00509675 в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005B7A3C (32-bit), Flags: Cmdre0, Thread: 0x3414 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00401433 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: __exchange_and_add() at c:/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h (47):
+
+     45:   static inline _Atomic_word 
+     46:   __exchange_and_add(volatile _Atomic_word* __mem, int __val)
+=>   47:   { return __atomic_fetch_add(__mem, __val, __ATOMIC_ACQ_REL); }
+     48: 
+     49:   static inline void
+
+# 1 0x004014A5 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: __exchange_and_add_dispatch() at c:/codeblocks/mingw/include/c++/4.8.1/ext/atomicity.h (80):
+
+     78: #ifdef __GTHREADS
+     79:     if (__gthread_active_p())
+=>   80:       return __exchange_and_add(__mem, __val);
+     81:     else
+     82:       return __exchange_and_add_single(__mem, __val);
+
+# 2 0x004AC29A in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_dispose() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 3 0x004B4193 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 4 0x00477F4A in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe at C:/Users/root/source/repos/Project2023/picture.cpp (3):
+
+      1: #include "TXLib.h"
+      2: 
+=>    3: struct Picture
+      4: {
+      5:     int x;
+
+# 5 0x0043B194 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (38):
+
+     36:     menuPic[10] = {20, 100, txLoadImage("Pictures/Уборы/Шлем.bmp"),         100,  105, 100, 105, false, "Уборы"};
+     37:     menuPic[11] = {20, 300, txLoadImage("Pictures/Уборы/Диадема.bmp"),      100,   60, 100,  60, false, "Уборы"};
+=>   38:     menuPic[12] = {20, 500, txLoadImage("Pictures/Уборы/Косынка.bmp"),      100,   60, 100,  60, false, "Уборы"};
+     39: 
+     40: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 16 2023 19:32:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Oct 23 2023 19:07:10
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047DCEC в функции _M_is_leaked() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0xFFFFFFFE в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005B9A3C (32-bit), Flags: Cmdre0, Thread: 0x206C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047DCEC in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_is_leaked() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004ACC2B in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: swap() at C:/Users/root/source/repos/Project2023/main.cpp (300):
+
+    298: 
+    299: return 0;
+=>  300: }
+    301: 
+    302: 
+
+# 2 0x004B3F69 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/main.cpp (300):
+
+    298: 
+    299: return 0;
+=>  300: }
+    301: 
+    302: 
+
+# 3 0x004781C5 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/main.cpp (300):
+
+    298: 
+    299: return 0;
+=>  300: }
+    301: 
+    302: 
+
+# 4 0x0043A957 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (82):
+
+     80:     btn[4] = {650, "Аксесуары", "Аксесуары"};
+     81:     btn[5] = {800, "Сумки", "Сумки"};
+=>   82:     btn[6] = {950, "Животные", "Животные"};
+     83: 
+     84: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 30 2023 19:36:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 10 2023 19:33:32
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047DCEC в функции _M_is_leaked() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0xFFFFFFFE в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005B9A3C (32-bit), Flags: Cmdre0, Thread: 0x206C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047DCEC in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_is_leaked() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004ACC2B in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: swap() at C:/Users/root/source/repos/Project2023/main.cpp (300):
+
+    298: 
+    299: return 0;
+=>  300: }
+    301: 
+    302: 
+
+# 2 0x004B3F69 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/main.cpp (300):
+
+    298: 
+    299: return 0;
+=>  300: }
+    301: 
+    302: 
+
+# 3 0x004781C5 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/main.cpp (300):
+
+    298: 
+    299: return 0;
+=>  300: }
+    301: 
+    302: 
+
+# 4 0x0043A957 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (82):
+
+     80:     btn[4] = {650, "Аксесуары", "Аксесуары"};
+     81:     btn[5] = {800, "Сумки", "Сумки"};
+=>   82:     btn[6] = {950, "Животные", "Животные"};
+     83: 
+     84: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 30 2023 19:36:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 10 2023 19:33:31
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047DDAC в функции _M_is_leaked() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0xFFFFFFFD в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005B9A3C (32-bit), Flags: Cmdre0, Thread: 0x3940 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047DDAC in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_is_leaked() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004ACCEB in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: swap() at C:/Users/root/source/repos/Project2023/main.cpp (303):
+
+    301: 
+    302: return 0;
+=>  303: }
+    304: 
+    305: 
+
+# 2 0x004B4029 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/main.cpp (303):
+
+    301: 
+    302: return 0;
+=>  303: }
+    304: 
+    305: 
+
+# 3 0x00478279 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/main.cpp (303):
+
+    301: 
+    302: return 0;
+=>  303: }
+    304: 
+    305: 
+
+# 4 0x0043A9AE in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (83):
+
+     81:     btn[5] = {800,30, "Сумки", "Сумки"};
+     82:     btn[6] = {950,30, "Животные", "Животные"};
+=>   83:     btn[7] = {950,600, "Сохранить"};
+     84: 
+     85: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 30 2023 19:36:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 24 2023 18:59:14
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0047DDAC в функции _M_is_leaked() в файле c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h на строке 45. Попытка прочесть данные по адресу 0xFFFFFFFD в модуле C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005B9A3C (32-bit), Flags: Cmdre0, Thread: 0x3940 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0047DDAC in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: _M_is_leaked() at c:/codeblocks/mingw/include/c++/4.8.1/debug/functions.h (45):
+
+     43:   // An arbitrary iterator pointer is not singular.
+     44:   inline bool
+=>   45:   __check_singular_aux(const void*) { return false; }
+     46: 
+     47:   // We may have an iterator that derives from _Safe_iterator_base but isn't
+
+# 1 0x004ACCEB in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: swap() at C:/Users/root/source/repos/Project2023/main.cpp (303):
+
+    301: 
+    302: return 0;
+=>  303: }
+    304: 
+    305: 
+
+# 2 0x004B4029 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/main.cpp (303):
+
+    301: 
+    302: return 0;
+=>  303: }
+    304: 
+    305: 
+
+# 3 0x00478279 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: operator=() at C:/Users/root/source/repos/Project2023/main.cpp (303):
+
+    301: 
+    302: return 0;
+=>  303: }
+    304: 
+    305: 
+
+# 4 0x0043A9AE in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: main() at C:/Users/root/source/repos/Project2023/main.cpp (83):
+
+     81:     btn[5] = {800,30, "Сумки", "Сумки"};
+     82:     btn[6] = {950,30, "Животные", "Животные"};
+=>   83:     btn[7] = {950,600, "Сохранить"};
+     84: 
+     85: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 30 2023 19:36:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Nov 24 2023 18:59:13
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x01403BD8. Попытка исполнить код по адресу 0x01403BD8. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005BAA3C (32-bit), Flags: Cmdre0, Thread: 0x1E68 (Main), GetLastError(): 6 (Неверный дескриптор). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 2 0x76FA61DB in C:\WINDOWS\System32\msvcrt.dll: cexit()
+# 3 0x00401284 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: __mingw_CRTStartup()
+# 4 0x004012C5 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: WinMainCRTStartup()
+# 5 0x77D67C6E in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 6 0x77D67C3E in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 30 2023 19:36:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 01 2023 19:06:36
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x01403BD8. Попытка исполнить код по адресу 0x01403BD8. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400], Instance: 0x005BAA3C (32-bit), Flags: Cmdre0, Thread: 0x1E68 (Main), GetLastError(): 6 (Неверный дескриптор). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 2 0x76FA61DB in C:\WINDOWS\System32\msvcrt.dll: cexit()
+# 3 0x00401284 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: __mingw_CRTStartup()
+# 4 0x004012C5 in C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe: WinMainCRTStartup()
+# 5 0x77D67C6E in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+# 6 0x77D67C3E in C:\WINDOWS\SYSTEM32\ntdll.dll: RtlGetAppContainerNamedObjectPath()
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library)
+TXLib [Ver: 00173a, Rev: 171, Date: 2021-07-19 01:45:49 +0400]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	c:\codeblocks\mingw\include\txlib.h
+Compiled:	Oct 30 2023 19:36:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, Debug
+Started:	Dec 01 2023 19:06:36
+
+Run file:	C:\Users\root\source\repos\Project2023\bin\Debug\Project2023.exe
+Directory:	C:\Users\root\source\repos\Project2023
+
+--------------------------------------------------
