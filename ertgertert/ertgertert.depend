@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1703509405 source:d:\programms\sdfsdf\ertgertert\main.cpp
+	"TXLib.h"
+	"buttom.cpp"
+	"picture.cpp"
+	<fstream>
+	<stdio.h>
+	<dirent.h>
+	<commctrl.h>
+	<commdlg.h>
+
+1702910978 d:\programms\sdfsdf\ertgertert\buttom.cpp
+	"TXLib.h"
+
+1702910978 d:\programms\sdfsdf\ertgertert\picture.cpp
+	"TXLib.h"
+
